@@ -1,0 +1,11 @@
+header{
+    background-color: rgba(158, 158, 158, 0.486);
+    position: relative;
+    &::before{
+        content: '';
+        background-image: url();
+        position: absolute;
+        z-index: -1;
+    }
+    
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,gBAAgB,EAAE,0BAA0B;EAC5C,QAAQ,EAAE,QAAQ;CAOrB;;AATD,AAGI,MAHE,AAGD,QAAQ,CAAA;EACL,OAAO,EAAE,EAAE;EACX,gBAAgB,EAAE,KAAK;EACvB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,EAAE;CACd",
+    "sources": [
+        "mahtabhoorzad.scss"
+    ],
+    "names": [],
+    "file": "mahtabhoorzad.css"
+}
