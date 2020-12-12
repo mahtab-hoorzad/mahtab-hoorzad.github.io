@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 .container, .container-fluid, .row {
   padding: 0;
 }
@@ -27,7 +30,7 @@ a:hover {
 }
 header {
   
-  background-image:url(../img/header-background.jpeg);
+  background-image:url(../img/about-me.jpg);
   background-size: cover;
   color: rgb(255, 255, 255);
   min-height: 110vh;
@@ -45,6 +48,7 @@ header {
   background-color: rgba(0,0,0,0.5);
 } */
 .me{
+  margin-top: 300px;
   text-align: center;
 }
 
