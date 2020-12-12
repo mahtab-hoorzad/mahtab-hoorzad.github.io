@@ -122,6 +122,9 @@ button{
   min-height: 100px;
   margin-bottom: 30px;
 }
+.skills>div{
+  padding: 0 48px 15px 0;
+}
 #resume>div>div>div>p{
   color: rgb(151, 218, 218);
 }
