@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.first {
+  background-image: url(../1.png);
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+  position: relative;
+}
+
+.first figure, .first img {
+  width: 60px;
+  height: 30px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.first figure {
+  margin: 20px 40px;
+}
+
+.first div {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 500px;
+  height: 300px;
+  padding-right: 60px;
+  margin-bottom: 60px;
+  display: block;
+  text-align: end;
+}
+
+.first div span {
+  font-size: 25px;
+}
+
+.first div h1 {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.first div button {
+  margin-top: 30px;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 160px;
+  height: 40px;
+}
+
+.second {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.second > div {
+  width: 50%;
+  height: 100vh;
+  padding: 50px;
+}
+
+.second > div h2 {
+  line-height: 70px;
+  font-size: 30px;
+}
+
+.second > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px;
+}
+
+.second > div > div i {
+  display: inline;
+  font-size: 60px;
+}
+
+.second > div > div div {
+  margin-left: 40px;
+}
+
+.second > div > div div span {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+
+.second > div figure, .second > div img {
+  width: 100%;
+  height: 100%;
+}
+
+.third {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../3.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.third div {
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.third div span {
+  font-size: 20px;
+}
+
+.third div h2 {
+  line-height: 90px;
+  font-size: 50px;
+}
+
+.third div figure, .third div img {
+  width: 90%;
+  height: 90%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.fourth {
+  background-color: rgba(75, 72, 72, 0.514);
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fourth div:nth-of-type(1) {
+  width: 50%;
+  height: 100vh;
+  margin: 200px auto;
+  padding: 200px;
+  color: #f8f1e5;
+}
+
+.fourth div:nth-of-type(1) h4 {
+  width: 400px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+.fourth div:nth-of-type(1) button {
+  margin-top: 30px;
+  border: none;
+  background-color: #fcf8f8;
+  color: #0f0f0f;
+  width: 160px;
+  height: 40px;
+}
+
+.fourth div:nth-of-type(2) {
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fourth div:nth-of-type(2) figure, .fourth div:nth-of-type(2) img {
+  width: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 20px;
+}
+
+.last {
+  width: 100%;
+  height: 50vh;
+  background-color: #222121;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.last span {
+  display: block;
+  width: 300px;
+  text-align: center;
+  line-height: 20px;
+}
+
+p {
+  line-height: 25px;
+  width: 400px;
+  text-align: justify;
+}
+/*# sourceMappingURL=master.css.map */

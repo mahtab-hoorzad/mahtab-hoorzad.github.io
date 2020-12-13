@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.first{
+    background-image: url(../img/1.jpeg);
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+.first>header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.first>header>figure>img{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+.first>header>figure{
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+    margin-right: 1000px;
+}
+.menu{
+    visibility: hidden;
+}
+.icon:hover menu{
+    visibility: visible;
+}
+.icon{
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+
+    /* margin-left: 100px; */
+
+}
+body a{
+    text-decoration-line: none;
+}
+body li{
+    list-style-type: none;
+}
+.first h1{
+    font-size: 85px;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 200px;
+}
+.intro{
+    width: 60%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    display: block;
+}
+.intro>h2{
+    line-height: 80px;
+    font-size: 40px;
+    /* margin-top: 400px; */
+}
+.intro>p{
+    line-height: 30px;
+}
+.intro>button{
+    background-color: yellow;
+    color: black;
+    border-radius: 40px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+/* ......................................................................................... */
+.second{
+    background-image: url(../img/2.jpeg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.second>div{
+    width: 320px;
+    height: 350px;
+    margin-top: 120px;
+}
+.second>div:nth-last-of-type(2){
+    margin-right: 60px;
+    margin-left: 60px;
+}
+.second>div>figure{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.second>div>figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.second>div>h2{
+    line-height: 100px;
+    font-size: 35px;
+    color: white;
+}
+.second>div>p{
+    font-size:18px;
+    line-height: 23px;
+    color: white;
+    margin-bottom: 15px;
+}
+.second>div>button,.fourth>div>button{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+/* ...................................................................................................... */
+.third{
+    background-image: url(../img/3-1.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+.third>h2{
+    font-size: 60px;
+    line-height: 100px;
+    margin-left: 110px;
+}
+.third>div{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+
+
+}
+.third>div>div>h2{
+
+    font-size: 36px;
+    line-height: 80px;
+}
+.third>div>div>p{
+    font-size: 20px;
+}
+.third>div>i{
+    display: inline;
+    color: yellow;
+    font-size: 50px;
+    margin: 20px;
+    
+}
+/* .................................................................................. */
+.fourth{
+    background-image: url(../img/4.jpeg);
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.fourth>div>h2{
+    font-size: 57px;
+    color: white;
+    line-height: 80px;
+    
+}
+.fourth>div>p{
+    font-size: 19px;
+    color: white;
+    line-height: 50px;
+    
+}
+
+.fourth>div>input{
+    width: 570px;
+    height: 48px;
+    margin: 30px 0;
+}
+/* ....................................................................................... */
+.fifth{
+    background-color: rgb(70, 68, 68);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.fifth>div>a{
+    color: rgb(122, 185, 179);
+}
+

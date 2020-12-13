@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body a{
+    text-decoration-line: none;
+}
+.first{
+    background-image: url(../img/1.jpg);
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+.first>div:nth-of-type(1){
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 300px 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.first a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first h1{
+    font-size: 120px;
+}
+.first strong{
+    color: white;
+    font-size: 30px;
+}
+.first i{
+    color: white;
+    font-size: 30px;
+}
+/* ....................................................................................... */
+.second{
+    display: flex;
+
+}
+.second>div>figure>img, .third>div>figure>img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.second>div>figure, .third>div>figure{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.img{
+    width: 50%;
+}
+.second>div:nth-of-type(2) , .third>div:nth-of-type(1){
+    width: 50%;
+    padding: 70px;
+}
+.second>div>span{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 60px;
+    color: rgb(80, 223, 248);
+}
+.second>div>h4{
+    font-size: 60px;
+    line-height: 60px;
+}
+.second>div>p,.third>div>p{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 40px 0;
+    color: rgb(97, 96, 96);
+}
+.second>div>button{
+    width: 160px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: 3px solid rgb(80, 223, 248);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* ................................................................................................ */
+.third{
+    display: flex;
+}
+.third>div>span{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 60px;
+    color: rgb(241, 209, 26);
+}
+.third>div>h4{
+    font-size: 60px;
+    line-height: 60px;
+}
+.third>div>button{
+    width: 160px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: 3px solid rgb(241, 209, 26);
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* ............................................................................................ */
+.fourth{
+    display: flex;
+
+}
+.fourth>div{
+    width: 25%;
+    height: 300px;
+}
+.fourth>div>figure{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+.fourth>div>figure>img{
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+/* .............................................................................................. */
+.fifth{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    height: 180vh;
+    text-align: center;
+}
+.por{
+    width: 100%;
+    height: 50vh;
+    margin-top: 150px;
+    text-align: center;
+}
+.fifth span{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 60px;
+    color: rgb(238, 103, 182);
+    text-align: center;
+    
+}
+.fifth h2{
+    font-size: 60px;
+    line-height: 60px;
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.gal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+}
+.gal>div{
+    width: 350px;
+    height: 350px;
+    margin: 5px;
+}
+.gal>div>figure{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gal>div>figure>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ................................................................................................... */
+.sixth{
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sixth>span{
+    font-size: 70px;
+    line-height: 110px;
+    text-transform: capitalize;
+    color: white;
+}
+.sixth>input{
+    width: 600px;
+    height: 50px;
+    margin: 10px;
+    border: 4px solid white;
+    background-color: transparent;
+    color: rgb(250, 198, 215);
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+.sixth>input:nth-of-type(3){
+    height: 150px;
+}
+.sixth>button{
+    width: 160px;
+    height: 50px;
+    color: rgb(250, 119, 169);
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+/* .............................................................................. */
+.seventh{
+    background-color: rgb(70, 68, 68);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.seventh>div>a{
+    color: rgb(247, 120, 204);
+}
